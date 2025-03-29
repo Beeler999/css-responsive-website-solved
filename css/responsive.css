@@ -40,7 +40,7 @@
     flex-direction: row;
   }
 
-  ul li {
+  ul li .social-icons {
     display: none;
   }
 
@@ -82,14 +82,18 @@
   .footer-contacts {
     display: flex;
     flex-flow: wrap;
-    gap: 75px;
     align-items: flex-start;
+    gap: 20px;
+    width: 600px;
   }
 
-  .social-icons,
-  span {
+  .social-icons span {
     display: none;
     width: 0;
+  }
+
+  footer .social-icons {
+    width: 10px;
   }
 }
 
