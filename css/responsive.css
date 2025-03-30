@@ -8,17 +8,32 @@
   /* .top-navigation .trigram {
     display: none;
   } */
-  .top-navigation:hover {
+  .top-navigation ul li:hover {
     text-decoration: underline;
     color: purple;
   }
 
-  .teammate-social-icons:hover {
+  .teammate-social-icons div i:hover {
     text-decoration: underline;
     color: purple;
   }
 
-  .social-icons:hover {
+  footer .social-icons div:hover {
+    text-decoration: underline;
+    color: purple;
+  }
+
+  footer .footer-contacts .address p:hover {
+    text-decoration: underline;
+    color: purple;
+  }
+
+  footer .footer-contacts .email ul li:hover {
+    text-decoration: underline;
+    color: purple;
+  }
+
+  footer .footer-contacts .phones ul li:hover {
     text-decoration: underline;
     color: purple;
   }
