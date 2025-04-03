@@ -97,8 +97,8 @@
   .footer-contacts {
     display: flex;
     flex-flow: wrap;
-    align-items: flex-start;
-    gap: 20px;
+    justify-content: center;
+    gap: 50px;
     width: 600px;
   }
 
@@ -110,6 +110,10 @@
   footer .social-icons {
     width: 10px;
   }
+
+  .top-navigation ul li {
+    display: none;
+  }
 }
 
 /* 👇👇👇 Add the media rule and the styles that belong to the MOBILE view only beneath 👇👇👇 */
@@ -119,12 +123,16 @@
     display: flex;
     flex-flow: column;
   }
+  .teammates-content .subtext {
+    color: #969696;
+    width: 100%;
+  }
   .portfolio-item-info {
     display: flex;
     flex-flow: column;
     align-items: center;
   }
-  ul li {
+  .top-navigation ul li {
     display: none;
   }
 
